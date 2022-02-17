@@ -1,0 +1,105 @@
+body{
+  margin: 0;
+  font-size: 110%;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.heading{
+  font-size: 140%;
+  font-weight: bold;
+  padding: 1%;
+}
+
+.subheading{
+  font-size: 130%;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.color-1{
+  color: #D8623F;
+  background-color: #FFCBAA;
+}
+.color-2{
+  color: #1B1B1B;
+  background-color: white;
+}
+
+.border-1{
+  border-left-style: solid;
+  border-left-width: 30px;
+  border-left-color: #D8623F;
+}
+.border-2{
+  border-right-style: solid;
+  border-right-width: 30px;
+  border-right-color: #D8623F;
+}
+
+.nav{
+  padding: 1%;
+  background-color: #D8623F;
+}
+.nav a{
+  color: white;
+  padding: 1%;
+  text-decoration: none;
+}
+.nav a:hover{
+  color: #D8623F;
+  background-color: white;
+}
+
+.home{
+  color: #D8623F;
+  padding: 15%;
+  text-align: center;
+  line-height: 1.5;
+  font-size: 180%;
+  font-family: serif;
+  font-style: italic;
+}
+
+.about{
+  padding: 6%;
+  line-height: 1.5;
+}
+
+.skills{
+  padding: 6%;
+}
+
+.projects{
+  padding: 6%;
+  padding-bottom: 20%;
+}
+.project{
+  text-align: center;
+  float: left;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #D8623F;
+  background-color: #FFCBA3;
+  margin: 3%;
+  width: 40%;
+}
+.project a{
+  padding: 1%;
+  background-color: #D8623F;
+  color: white;
+  text-decoration: none;
+  display: block;
+}
+.project a:hover{
+  background-color: #FFCBAA;
+  color: white;
+}
+
+ul{
+  line-height: 2;
+}
+
+.contact{
+  clear: both;
+  padding: 6%;
+}
